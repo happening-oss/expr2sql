@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --outDir=./docs --base=/ --emptyOutDir",
+    "build": "vite build --outDir=./docs --base=/expr2sql/ --emptyOutDir",
     "preview": "vite preview"
   },
   "devDependencies": {

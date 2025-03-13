@@ -1,0 +1,23 @@
+{
+  "name": "@happening-oss/expr2sql-playground",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --outDir=./docs --base=/ --emptyOutDir",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "uuid": "^9.0.1",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@codemirror/lang-sql": "^6.8.0",
+    "air-datepicker": "^3.5.3",
+    "codemirror": "^6.0.1"
+  }
+}

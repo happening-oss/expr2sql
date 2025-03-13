@@ -1,0 +1,15 @@
+{
+  "name": "expr2sql-editor",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "demo": "npm run dev -w @happening-oss/expr2sql-playground",
+    "demo:build": "npm run build -w @happening-oss/expr2sql-playground"
+  },
+  "workspaces": [
+    "playground",
+    "editor",
+    "only-package-commits"
+  ]
+}

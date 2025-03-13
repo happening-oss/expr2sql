@@ -1,0 +1,16 @@
+{
+  "name": "only-package-commits",
+  "version": "1.0.0",
+  "description": "Plugin to filter semantic-release commits by path",
+  "main": "plugin.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.3"
+  }
+}

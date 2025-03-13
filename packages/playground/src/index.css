@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+}
+
+.cm-editor {
+  height: 100%;
+}
+
+body {
+  --color-1: #ffffff;
+  --color-2: #f8f8ff;
+  background-color: var(--color-1);
+  /* opacity: 0.8; */
+  background-image: 
+    linear-gradient(var(--color-2) 2px, transparent 2px), 
+    linear-gradient(90deg, var(--color-2) 2px, transparent 2px), 
+    linear-gradient(var(--color-2) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-2) 1px, var(--color-1) 1px);
+  background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+.input {
+  caret-color: rgb(128, 112, 143);
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgb(229, 231, 235);
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  transition-duration: 0.15s;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

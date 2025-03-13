@@ -55,3 +55,8 @@ jobs:
         run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ github.token }}
+
+  release-playground:
+    name: Rebuild and release playground
+    needs: version
+    uses: ./.github/workflows/playground-page.yml

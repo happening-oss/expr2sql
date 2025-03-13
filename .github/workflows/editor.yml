@@ -1,0 +1,41 @@
+name: "editor - build and release"
+
+on:
+  push:
+    paths:
+      - 'packages/editor/**'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+          cache: 'npm'
+          cache-dependency-path: packages/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: packages/editor
+
+      - name: Build project
+        run: npm run build
+        working-directory: packages/editor
+
+      - name: Install plugin dependencies
+        run: npm ci
+        working-directory: packages/only-package-commits
+
+      - name: Release with Semantic Release
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npx semantic-release
+        working-directory: packages/editor

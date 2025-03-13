@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+    "target": "ES2020",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+		"allowJs": true,
+		"checkJs": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": false,
+    "strictNullChecks": false,
+		"moduleResolution": "bundler"
+	},
+  "include": ["src", "lib"]
+}

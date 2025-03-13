@@ -1,0 +1,7 @@
+{
+  "plugins": [["./packages/only-package-commits/plugin.js", { "include": ["pkg", "go.mod"] }]],
+  "verifyConditions": ["@semantic-release/github"],
+  "publish": ["@semantic-release/github"],
+  "prepare" : [],
+  "repositoryUrl": "https://github.com/happening-oss/expr2sql"
+}

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "baseUrl": "./",
+
+    "checkJs": true,
+    "allowJs": true,
+
+    "noEmit": false,
+    "outDir": "./dist/types",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}

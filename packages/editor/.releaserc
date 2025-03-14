@@ -2,7 +2,8 @@
   "plugins": [["../only-package-commits/plugin.js", { "include": ["packages"] }]],
   "verifyConditions": ["@semantic-release/github"],
   "publish": [
-    ["@semantic-release/github", { "assets": [ {"path": "./*.tar.gz"} ] }]
+    ["@semantic-release/github", { "assets": [ {"path": "./*.tar.gz"} ] }],
+    ["@semantic-release/npm", { "pkgRoot": "dist" }]
   ],
   "prepare" : [],
   "repositoryUrl": "https://github.com/happening-oss/expr2sql",

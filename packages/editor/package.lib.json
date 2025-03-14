@@ -1,0 +1,26 @@
+{
+  "name": "@happening-oss/expr2sql-editor",
+  "description": "Autocomplete expression builder for expr-lang",
+  "author": "Ante Novokmet <ante.novokmet@happening.xyz>",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "types": "types/lib.d.ts",
+  "dependencies": {
+    "fuzzysort": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/happening-oss/expr2sql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/happening-oss/expr2sql/issues"
+  },
+  "keywords": [
+    "typescript",
+    "autocomplete",
+    "query-builder",
+    "javascript",
+    "expr-lang"
+  ]
+}

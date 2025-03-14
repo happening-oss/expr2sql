@@ -7,8 +7,8 @@
 </h1>
 
 <p align="center">
-    <a href="https://github.com/happening-oss/expr2sql-editor/releases">
-      <img src="https://img.shields.io/github/v/release/happening-oss/expr2sql-editor" alt="Latest Release"/>
+    <a href="https://github.com/happening-oss/expr2sql/releases">
+      <img src="https://img.shields.io/github/v/release/happening-oss/expr2sql?filter=editor-*" alt="Latest Release"/>
     </a>
     <a href="https://www.npmjs.com/package/@happening-oss/expr2sql-editor">
         <img src="https://img.shields.io/npm/v/@happening-oss/expr2sql-editor" alt="npm">
@@ -16,8 +16,8 @@
     <a href="https://www.npmjs.com/package/@happening-oss/expr2sql-editor">
         <img src="https://img.shields.io/npm/dm/@happening-oss/expr2sql-editor" alt="npm downloads">
     </a>
-    <a href="https://github.com/happening-oss/expr2sql-editor/blob/editor/packages/editor/LICENSE">
-        <img src="https://img.shields.io/github/license/happening-oss/expr2sql-editor" alt="MIT">
+    <a href="https://github.com/happening-oss/expr2sql/blob/editor/packages/editor/LICENSE">
+        <img src="https://img.shields.io/github/license/happening-oss/expr2sql" alt="MIT">
     </a>
 <p>
 
@@ -47,6 +47,7 @@ Initialize the `ExprEditor` component:
 
 ```js
 import { ExprEditor } from '@happening-oss/expr2sql-editor';
+import '@happening-oss/expr2sql-editor/style.css';
 
 // define the doc
 const doc = {

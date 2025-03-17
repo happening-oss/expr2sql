@@ -38,5 +38,6 @@ jobs:
       - name: Release with Semantic Release
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
         working-directory: packages/editor

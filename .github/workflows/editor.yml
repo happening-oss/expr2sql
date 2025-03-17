@@ -1,6 +1,7 @@
 name: "editor - build and release"
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'packages/editor/**'

@@ -8,7 +8,7 @@
     "build:tsc": "tsc -p tsconfig.app.json",
     "prebuild": "rm -rf dist",
     "build": "tsc -p tsconfig.lib.json && vite build",
-    "postbuild": "cp package.lib.json dist/package.json && cp README.md dist/README.md"
+    "postbuild": "cp package.lib.json dist/package.json && cp README.md dist/README.md && cp logo.png dist/logo.png"
   },
   "devDependencies": {
     "@types/node": "^22.13.10",

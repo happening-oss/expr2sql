@@ -12,7 +12,7 @@
     <a href="https://github.com/happening-oss/expr2sql/actions/workflows/lib-ci.yml">
         <img src="https://github.com/happening-oss/expr2sql/actions/workflows/lib-ci.yml/badge.svg" alt="Build Status"/></a>
     <a href="https://github.com/happening-oss/expr2sql/releases">
-        <img src="https://img.shields.io/github/v/release/happening-oss/expr2sql" alt="Latest Release"/></a>
+        <img src="https://img.shields.io/github/v/release/happening-oss/expr2sql?filter=v*" alt="Latest Release"/></a>
     <a href="https://github.com/happening-oss/expr2sql/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/happening-oss/expr2sql" alt="MIT License"/></a>
 </p>
